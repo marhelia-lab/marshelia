@@ -1,0 +1,164 @@
+*{ margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+/* Header */
+.navbar{
+    padding: 0px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    background-color: aliceblue;
+    box-shadow: 0 0 14px palevioletred;
+    float: right;
+    width: 95%;
+}
+
+.menu-btn{
+    color: aliceblue;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.navbar .logo h1{
+    color: palevioletred;
+    border-bottom: 4px solid palevioletred;
+    cursor: pointer;
+    margin-right: auto;
+    float: left;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    padding: 14px 16px;
+    color: palevioletred;
+    border-bottom:4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100VH;
+}
+
+.navbar .menu li .active{
+    border-bottom: 4px solid palevioletred;
+}
+
+.navbar .menu li a i{
+    color: palevioletred;
+}
+
+.navbar .menu li a:hover{
+    border-bottom: 4px solid palevioletred
+}
+
+/* content */
+
+.content{
+    background-image: url(What\ to\ Wear\ to\ an\ Interview\ for\ Women.jpeg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+.content h1{
+    font-size: 40px;
+}
+
+.content p{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: palevioletred;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pheading{
+  text-align: center;
+  margin: 50px 0;
+  color: rgb(48, 47, 47);  
+}
+
+.sec{
+    padding: 10px 5%;
+}
+
+.product .card{
+    width: 310px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.product .card img{
+    height: 250px;
+    width: 100%;
+}
+
+.product .card .desc{
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+
+.product .card .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: grey;
+    padding: 0 20px;
+}
+
+.product .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.product .cart .box .prince{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}

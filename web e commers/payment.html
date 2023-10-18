@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Payment</title>
+  <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+  <div class="container">
+    <h1 style="margin: 10px;">Payment</h1>
+    <form class="" action="#" method="post">
+      <input required class="input-form laf" type="text" name="" value="Marshelia" placeholder="nama">
+      <br>
+      <input required class="input-form laf" type="number" name="" value="08" placeholder="08...">
+      <br>
+      <input required class="input-form number laf" type="number" name="" value="1" placeholder="jumlah" ng-model="jumlah">
+      <br>
+      <input required class="input-form number laf" type="number" name="" value="150" ng-model="harga">
+      <br>
+      <input disabled required class="input-form-value" type="number" name="" value="{{jumlah'harga}}" placeholder="hasil" ng-model="hasil">
+      <br>
+      <textarea class="input-form" cols="s" rows="S" name="comment" placeholder="catatan" required></textarea>
+
+      <div style="overflow: auto;">]
+        <label>pilih metode pembayaran</label>
+        <table border="0" cellpadding="10"></table>
+        <tr>
+          <th><input type="checkbox" value=""><img src="1.jpg" width="60px" height="20px"></th>
+          <th><input type="checkbox" value=""><img src="2.jpg" width="60px" height="20px"></th>
+          <th><input type="checkbox" value=""><img src="3.jpg" width="60px" height="20px"></th>
+          <th><input type="checkbox" value=""><img src="4 (2).jpg" width="60px" height="20px"></th>
+          <th><input type="checkbox" value=""><img src="5.jpg" width="60px" height="20px"></th>
+          <th><input type="checkbox" value=""><img src="6.jpg" width="60px" height="20px"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" value=""><img src="7.jpg" width="60px" height="20px"></th>
+          <th><input type="checkbox" value=""><img src="8.jpg" width="60px" height="20px"></th>
+          <th><input type="checkbox" value=""><img src="10 (2).jpg" width="60px" height="20px"></th>
+          <th><input type="checkbox" value=""><img src="9.jpg" width="60px" height="20px"></th>
+          <th><input type="checkbox" value=""><img src="11.jpg" width="60px" height="20px"></th>
+          <th><input type="checkbox" value=""><img src="12.jpg" width="60px" height="20px"></th>
+        </tr>
+      </table>
+      </div>
+      <button class="btn-form-pay">pay</button>
+      <button class="btn-form-change" id="my8tn">batal</button>
+    </form>
+  </div>
+</body>
+</html>
